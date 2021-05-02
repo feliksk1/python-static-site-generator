@@ -1,5 +1,5 @@
 import typer
-import Site from ssg.Site
+from site import *
 
 def main(source="content", dest="dist"):
     config = {
